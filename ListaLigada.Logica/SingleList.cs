@@ -34,6 +34,12 @@
             }
         }
 
+        /*
+        public bool Remove(T elemento) {
+            var pointer = _first;
+
+        }
+        */
         public override string ToString() {
             var cadenaLista = string.Empty;
             var pointer = _first;

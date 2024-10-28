@@ -25,6 +25,10 @@ internal class Program
                     MostrarLista();
                     break;
 
+                case 3:
+                    EliminarElemento();
+                    break;
+
                 case 0:
                     
                     break;
@@ -53,6 +57,11 @@ internal class Program
             Console.WriteLine(singleList);
         }
 
+        void EliminarElemento(){ 
+            
+        }
+
+
 
         Console.ReadKey();
     } //Termina el main
@@ -63,6 +72,7 @@ internal class Program
         Console.WriteLine("\nMenu\n");
         Console.WriteLine("1.- Agregar elemento");
         Console.WriteLine("2.- Mostrar lista");
+        Console.WriteLine("3.- Eliminar elemento");
         Console.WriteLine("0.- Salir\n");
 
         bool esValido = false;
